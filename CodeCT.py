@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# 1. Hàm khởi tạo dữ liệu
 def generate_custom_data(num_customers):
     # Tọa độ kho (Depot) cố định tại vị trí trung tâm (50, 50)
     depot = np.array([50, 50])
